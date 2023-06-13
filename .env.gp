@@ -1,1 +1,1 @@
-VITE_APP_TITLE='Page'
+VITE_APP_TITLE='Vanilla by vite!'
