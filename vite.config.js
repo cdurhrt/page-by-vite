@@ -1,3 +1,7 @@
 import { defineConfig } from "vite";
 
-export default defineConfig(({ command, mode, ssrBuild }) => {});
+export default defineConfig(({ command, mode, ssrBuild }) => {
+  return {
+    base: "/page-by-vite/",
+  };
+});
