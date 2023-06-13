@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "build:staging": "vite build --mode staging",
+    "build:gp": "vite build --mode gp",
+    "preview": "vite preview --open"
   },
   "devDependencies": {
     "vite": "^4.3.9"
