@@ -1,11 +1,9 @@
 import { defineConfig } from "vite";
 
 export default defineConfig(({ command, mode, ssrBuild }) => {
-  if (mode === "gp") {
-    return {
-      base: "/page-by-vite/",
-    };
-  }
+  return {
+    base: "/page-by-vite/",
+  };
   if (command === "serve") {
     return {
       // dev 独有配置
