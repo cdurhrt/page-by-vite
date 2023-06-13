@@ -1,3 +1,1 @@
-export default {
-  base: "/page-by-vite/",
-};
+export default {};
